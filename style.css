@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { font-family: Clip; src: url('clip.ttf'); } 
+@font-face { font-family: Halogen; src: url('Halogen Gas Lights.otf'); } 
+@font-face { font-family: Beon; src: url('beon-webfont.ttf'); } 
+
+body, html {
+    font-family: "Helvetica", sans-serif;
+    text-align:center;
+    height:100%;
+    width:100%;
+    /* background: linear-gradient(#ff3ffb, #ff3f9f); */
+    background-image:url(image.png);
+    background-size:110%;
+}
+
+#navbar {
+    height:40px;
+}
+
+#leftname{
+    margin-top: -7px;
+    position:absolute;
+    left:0;
+    font-family:Halogen;
+    font-size:28px;
+}
+
+#navbar ul { 
+	margin: 0; 
+    padding-top:16px;
+    height:100%;
+	list-style-type: none; 
+	text-align: right; 
+	background-color: #000; 
+    font-family: "Beon";
+    font-size:22px;
+} 
+ 
+#navbar ul li {  
+	display: inline; 
+} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #95ff4f; 
+    text-shadow: 0 0 10px #FFFFFF;
+    height:100%;
+	background-color: #000; 
+} 
+ 
+#navbar ul li a:hover { 
+	color: #FFFFFF; 
+	/* background-color: hotpink; */
+    text-shadow: 0 0 1px #FF69B4;
+} 
+
+#sign {
+    width:600px;
+    height:500px;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hero {
+    width:inherit;
+    height:360px;
+    border-radius:8px;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+}
+
+#arrow {
+    position: inherit;
+    margin-left:120px;
+    height: 48px;
+    width: auto;
+}
+
+#splash {
+    width:500px;
+    height:auto;
+    border-style:hidden;
+    border-radius:8px;
+    box-shadow: 0 0 10px 4px #ff3f9f;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -3px;
+}
+
+#hero h1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    position:absolute;
+    left:0;
+    font-family:Halogen;
+    font-size:48px;
+    color: #95ff4f;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+
+#signpostleg1 {
+    background-color:#000000;
+    width:10%;
+    height: 140px;
+    position:absolute;
+    left: 30%;
+    top: 58%;
+    transform: translate(-50%, 50%);
+}
+
+#signpostspace {
+    background-color:#ff3f9f;
+    opacity:0;
+    width:34%;
+    height: 140px;
+    position:absolute;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, 50%);
+}
