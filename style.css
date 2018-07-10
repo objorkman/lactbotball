@@ -13,12 +13,37 @@ body, html {
     height:100%;
     width:100%;
     /* background: linear-gradient(#ff3ffb, #ff3f9f); */
-    background-image:url(image.png);
-    background-size:180%;
+    overflow-y:hidden;
+}
+
+#full-container {
+    position:absolute;
+    perspective:1px;
+    width:100vw;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#navbar-container {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transform:translateZ(-9999px) scale(9999);
+    z-index:3;
 }
 
 #navbar {
+    position:fixed;
     height:40px;
+    top:0;
+    left:0;
+    width:100vw;
+    z-index:3;
 }
 
 #leftname{
@@ -59,14 +84,30 @@ body, html {
     text-shadow: 0 0 1px #FF69B4;
 } 
 
+#parallax-layer {
+    position:absolute;
+    top:450%;
+    right:0;
+    bottom:0;
+    left:0;
+    transform: translateZ(-6px) scale(7);
+    width:100vw;
+    height:250vh;
+    z-index:0;
+    
+    background-image:url(image.png);
+    background-size:180%;
+}
+
 #sign {
-    width:600px;
-    height:360px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index:1;
+    bottom: 0;
+    right: 0;
+    width:600px;
+    height:360px;
+    transform: translate(-50%, -50%) translateZ(0);
 }
 
 #hero {
@@ -104,10 +145,11 @@ body, html {
 
 #hero h1 {
     margin-top: 5%;
-    margin-left: 7%;
     margin-bottom: 10px;
     position:absolute;
     left:0;
+    width:100%;
+    text-align:center;
     font-family:Halogen;
     font-size:48px;
     color: #95ff4f;
@@ -116,13 +158,31 @@ body, html {
 
 #content-divider {
     position:absolute;
-    top: 80%;
-    height:900px;
-    width:60%;
+    top: 120%;
+    height:200vh;
+    width:600px;
     left: 50%;
     transform:translate(-50%, 0);
+    border-radius:8px;
+    border-style:hidden;
+    background-color:black;
+    padding-top:10vh;
 }
 
-#content-divider h1, p {
-    color:white;   
+#content-divider h1 {
+    color: #95ff4f;
+    font-family:Beon;
+    font-size: 64px;
+    text-align:center;
+}
+
+#content-divider p {
+    margin-top:5vh;
+    margin-left:2.5vw;
+    margin-right:2.5vw;
+    margin-bottom:5vh;
+    color:#95ff4f;
+    font-family:Helvetica;
+    font-size:20px;
+    text-align:left;
 }
