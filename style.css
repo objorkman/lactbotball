@@ -176,6 +176,10 @@ body, html {
     text-align:center;
 }
 
+#content-divider img {
+    width: inherit;	
+}
+
 #content-divider p {
     margin-top:5vh;
     margin-left:2.5vw;
