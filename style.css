@@ -180,6 +180,11 @@ body, html {
     width: inherit;	
 }
 
+img.resize{
+	max-width:25%;
+	max-height:50%;
+}
+
 #content-divider p {
     margin-top:5vh;
     margin-left:2.5vw;
