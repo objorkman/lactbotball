@@ -181,8 +181,8 @@ body, html {
 }
 
 img.resize{
-	max-width:25%;
-	max-height:50%;
+	max-width:75%;
+	max-height:75%;
 }
 
 #content-divider p {
