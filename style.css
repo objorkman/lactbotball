@@ -159,33 +159,6 @@ body, html {
 #content-divider {
     position:absolute;
     top: 120%;
-    height:175vh;
-    width:600px;
-    left: 50%;
-    transform:translate(-50%, 0);
-    border-radius:8px;
-    border-style:hidden;
-    background-color:black;
-    padding-top:10vh;
-}
-
-
-#content-about {
-    position:absolute;
-    top: 120%;
-    height:200vh;
-    width:600px;
-    left: 50%;
-    transform:translate(-50%, 0);
-    border-radius:8px;
-    border-style:hidden;
-    background-color:black;
-    padding-top:10vh;
-}
-
-#content-index {
-    position:absolute;
-    top: 120%;
     height:200vh;
     width:600px;
     left: 50%;
