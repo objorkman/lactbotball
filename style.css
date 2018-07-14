@@ -173,7 +173,7 @@ body, html {
 #content-about {
     position:absolute;
     top: 120%;
-    height:150vh;
+    height:200vh;
     width:600px;
     left: 50%;
     transform:translate(-50%, 0);
@@ -186,7 +186,7 @@ body, html {
 #content-index {
     position:absolute;
     top: 120%;
-    height:150vh;
+    height:200vh;
     width:600px;
     left: 50%;
     transform:translate(-50%, 0);
