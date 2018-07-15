@@ -92,11 +92,11 @@ body, html {
     left:0;
     transform: translateZ(-6px) scale(7);
     width:100vw;
-    height:175vh;
+    height:185vh;
     z-index:0;
     
     background-image:url(image.png);
-    background-size:160%;
+    background-size:170%;
 }
 
 #sign {
@@ -159,7 +159,7 @@ body, html {
 #content-divider {
     position:absolute;
     top: 85%;
-    height:150vh;
+    height:175vh;
     width:600px;
     left: 50%;
     transform:translate(-50%, 0);
