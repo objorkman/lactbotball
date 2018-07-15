@@ -92,7 +92,7 @@ body, html {
     left:0;
     transform: translateZ(-6px) scale(7);
     width:100vw;
-    height:250vh;
+    height:150vh;
     z-index:0;
     
     background-image:url(image.png);
