@@ -158,8 +158,8 @@ body, html {
 
 #content-divider {
     position:absolute;
-    top: 120%;
-    height:200vh;
+    top: 90%;
+    height:195vh;
     width:600px;
     left: 50%;
     transform:translate(-50%, 0);
@@ -177,7 +177,7 @@ body, html {
 }
 
 #content-divider img {
-    width: inherit;	
+    margin-top:5vh;
 }
 
 img.resize{
