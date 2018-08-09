@@ -55,7 +55,47 @@ img {
   background-image: -webkit-linear-gradient(top, white, #f8f8f8);
   background-image: -moz-linear-gradient(top, white, #f8f8f8);
   background-image: -o-linear-gradient(top, white, #f8f8f8);
-  background-image: linear-gradient(top, white, #f8f8f8); }
+  background-image: linear-gradient(top, white, #f8f8f8); 
+}
+
+@keyframes slidy { 
+	0%  { left: 0%; }
+	10% { left: 0%; }
+	15% { left: -100%; }
+	25% { left: -100%; }
+	30% { left: -200%; }
+	40% { left: -200%; } 
+	45% { left: -300%; }
+	55% { left: -300%; }
+    60% { left: -400%; }
+	70% { left: -400%; }
+    75% { left: -500%; }
+	85% { left: -500%; }
+    90% { left: -600%; }
+	100% { left: -600%; }
+}
+
+div#slider {
+    margin: 0 auto;
+	max-width: 775px;
+    overflow: hidden;
+}
+
+div#slider figure {
+	position: relative;
+	width: 1000%;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 0;
+	font-size: 0;
+	text-align: left;
+	animation: 30s slidy infinite;  
+}
+div#slider figure img {
+	width: 10%;
+	height: auto;
+	float: left;
+}
 
 .view-code:hover {
     color: #333; 
